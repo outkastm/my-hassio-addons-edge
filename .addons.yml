@@ -1,0 +1,6 @@
+channel: edge
+addons:
+  zwave2mqtt-okm:
+    repository: outkastm/addon-zwave2mqtt-okm
+    target: zwave2mqtt-okm
+    image: outkastm/zwave2mqtt-okm-{arch}
